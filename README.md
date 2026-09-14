@@ -1,3 +1,2 @@
-# I_see_sime
-
-SIEM 기업연계 프로젝트
+# i_saw_siem
+siem teiren security_project
