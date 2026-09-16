@@ -6,7 +6,7 @@ import { Presentation, PresentationFile } from "@oai/artifact-tool";
 const workspaceDir = "C:/Users/ENCO/Documents/mission1/security_project";
 const SKILL_DIR = "C:/Users/ENCO/.codex/plugins/cache/openai-primary-runtime/presentations/26.904.11930/skills/presentations";
 const RUNTIME_PYTHON = "C:/Users/ENCO/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe";
-const FINAL_PPTX = path.join(workspaceDir, "output", "보안로그_위험스코어링_문제정의_2장.pptx");
+const FINAL_PPTX = path.join(workspaceDir, "산출물", "프레젠테이션", "보안로그_위험점수_문제정의.pptx");
 const stagingDir = path.join(workspaceDir, ".codex-finalizer");
 const font = "Paperlogy";
 

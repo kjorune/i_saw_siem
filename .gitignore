@@ -3,6 +3,8 @@
 /eda_security_data_clean_260915_01.zip
 
 # Generated previews and temporary work files
+/.codex-build/
+/.codex-finalizer/
 /.codex-rendered/
 /tmp/
 **/__pycache__/
@@ -10,3 +12,15 @@
 
 # Reinstallable dependencies
 **/node_modules/
+
+# Local environment and editor files
+.env
+.env.*
+*.key
+*.pem
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
+*.log

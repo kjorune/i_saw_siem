@@ -15,9 +15,9 @@ from reportlab.platypus import (
 from reportlab.pdfgen.canvas import Canvas
 
 ROOT = Path(r"C:\Users\ENCO\Documents\mission1\security_project")
-PLAN = ROOT / "analysis" / "통합기획서_수정본_본문.md"
-DICT = ROOT / "security_csv_data_dictionary_v0.2.md"
-OUT = ROOT / "output" / "pdf" / "테이렌_이메일_외부유출_프로젝트_통합기획서_부록포함.pdf"
+PLAN = ROOT / "문서" / "기획" / "이메일_외부유출_프로젝트_통합기획서_본문.md"
+DICT = ROOT / "문서" / "자료조사" / "보안로그_CSV_데이터사전_v02.md"
+OUT = ROOT / "산출물" / "보고서" / "이메일_외부유출_통합기획서_부록포함.pdf"
 FLOW_IMAGE = Path(r"C:\Users\ENCO\AppData\Local\Temp\codex-clipboard-5ad76f2f-9da1-4ef6-bcae-e5d5c3a44397.png")
 RANKING_IMAGE = Path(r"C:\Users\ENCO\Downloads\ChatGPT Image 2026년 9월 15일 오후 05_18_47 (1).png")
 PROFILE_IMAGE = Path(r"C:\Users\ENCO\Downloads\ChatGPT Image 2026년 9월 15일 오후 05_18_48 (2).png")
