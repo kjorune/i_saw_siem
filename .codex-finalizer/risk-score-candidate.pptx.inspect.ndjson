@@ -1,0 +1,99 @@
+{"kind":"deck","id":"pr/blj1vj","name":"Deck"}
+{"kind":"layout","layoutId":"b6ab5565-f335-445f-9aef-64e2eea1ee4c","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"99c40f5b-b786-4ab8-ab8d-89c66129aea1","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/z8muon","slide":1,"title":"01. 분석 문제 정의","textShapes":27}
+{"kind":"textbox","id":"sh/1srq14j6","slide":1,"text":"01. 분석 문제 정의","textPreview":"01. 분석 문제 정의","textChars":12,"textLines":1,"bbox":[54,26,260,24]}
+{"kind":"textbox","id":"sh/e507q90f","slide":1,"text":"SECURITY ANALYTICS","textPreview":"SECURITY ANALYTICS","textChars":18,"textLines":1,"bbox":[1000,27,220,20]}
+{"kind":"textbox","id":"sh/fq98ze10","slide":1,"text":"라벨 없이 행동의 이상 정도를 위험점수로 계산","textPreview":"라벨 없이 행동의 이상 정도를 위험점수로 계산","textChars":25,"textLines":1,"bbox":[54,65,1120,50]}
+{"kind":"textbox","id":"sh/s3ypozi9","slide":1,"text":"X = 행동지표 / Y 없음 / 최종 Output = Risk Score","textPreview":"X = 행동지표 / Y 없음 / 최종 Output = Risk Score","textChars":40,"textLines":1,"bbox":[54,112,1120,28]}
+{"kind":"textbox","id":"sh/d47qx4ju","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1190,682,30,18]}
+{"kind":"shape","id":"sh/q1g7mp0j","slide":1,"bbox":[54,172,500,160]}
+{"kind":"textbox","id":"sh/r2povu14","slide":1,"text":"X · INPUT","textPreview":"X · INPUT","textChars":9,"textLines":1,"bbox":[76,190,456,22]}
+{"kind":"textbox","id":"sh/cz2p03it","slide":1,"text":"이메일 행동지표","textPreview":"이메일 행동지표","textChars":8,"textLines":1,"bbox":[76,220,456,40]}
+{"kind":"shape","id":"sh/x0bq98je","slide":1,"bbox":[574,172,228,160]}
+{"kind":"textbox","id":"sh/d0369g72","slide":1,"text":"Y · LABEL","textPreview":"Y · LABEL","textChars":9,"textLines":1,"bbox":[596,190,184,22]}
+{"kind":"textbox","id":"sh/czu5gbqh","slide":1,"text":"정답 라벨 없음","textPreview":"정답 라벨 없음","textChars":8,"textLines":1,"bbox":[596,220,184,40]}
+{"kind":"shape","id":"sh/bylo76pw","slide":1,"bbox":[822,172,404,160]}
+{"kind":"textbox","id":"sh/qxsne18b","slide":1,"text":"OUTPUT","textPreview":"OUTPUT","textChars":6,"textLines":1,"bbox":[844,190,360,22]}
+{"kind":"textbox","id":"sh/pwj65w7q","slide":1,"text":"Risk Score","textPreview":"Risk Score","textChars":10,"textLines":1,"bbox":[844,220,360,40]}
+{"kind":"textbox","id":"sh/ova5crql","slide":1,"text":"외부메일 수 · 외부 수신자 수 · 첨부파일 수","textPreview":"외부메일 수 · 외부 수신자 수 · 첨부파일 수","textChars":26,"textLines":1,"bbox":[76,270,456,20]}
+{"kind":"textbox","id":"sh/3u1o3mp0","slide":1,"text":"메일 크기 · BCC · 비정상 시간대","textPreview":"메일 크기 · BCC · 비정상 시간대","textChars":21,"textLines":1,"bbox":[76,294,456,20]}
+{"kind":"textbox","id":"sh/2tsnah8f","slide":1,"text":"신규 외부 수신자·도메인 · 반복 전송","textPreview":"신규 외부 수신자·도메인 · 반복 전송","textChars":21,"textLines":1,"bbox":[76,318,456,20]}
+{"kind":"textbox","id":"sh/9sn6h07a","slide":1,"text":"정상/악성","textPreview":"정상/악성","textChars":5,"textLines":1,"bbox":[596,270,184,22]}
+{"kind":"textbox","id":"sh/8repovqp","slide":1,"text":"유출/비유출","textPreview":"유출/비유출","textChars":6,"textLines":1,"bbox":[596,296,184,22]}
+{"kind":"textbox","id":"sh/s76h03ix","slide":1,"text":"위험순위","textPreview":"위험순위","textChars":4,"textLines":1,"bbox":[844,272,112,22]}
+{"kind":"textbox","id":"sh/t8fi9oji","slide":1,"text":"점수 산정 근거","textPreview":"점수 산정 근거","textChars":8,"textLines":1,"bbox":[844,299,180,22]}
+{"kind":"shape","id":"sh/6l4zyt07","slide":1,"bbox":[54,366,1172,2]}
+{"kind":"textbox","id":"sh/76x07y1c","slide":1,"text":"문제 유형","textPreview":"문제 유형","textChars":5,"textLines":1,"bbox":[54,389,150,24]}
+{"kind":"textbox","id":"sh/kjmhwji1","slide":1,"text":"비지도·통계 기반 위험 스코어링","textPreview":"비지도·통계 기반 위험 스코어링","textChars":17,"textLines":1,"bbox":[54,420,520,38]}
+{"kind":"shape","id":"sh/5kvy5ojm","slide":1,"bbox":[720,392,506,82]}
+{"kind":"textbox","id":"sh/ih4zu9kv","slide":1,"text":"사용자 기준선 대비 편차","textPreview":"사용자 기준선 대비 편차","textChars":13,"textLines":1,"bbox":[744,405,210,24]}
+{"kind":"textbox","id":"sh/jidg3e1g","slide":1,"text":"+","textPreview":"+","textChars":1,"textLines":1,"bbox":[958,405,30,24]}
+{"kind":"textbox","id":"sh/wfmhsj2p","slide":1,"text":"복합·반복 행동","textPreview":"복합·반복 행동","textChars":8,"textLines":1,"bbox":[992,405,190,24]}
+{"kind":"textbox","id":"sh/xgvy14ja","slide":1,"text":"개별 이상신호를 종합해 조사 우선순위를 제공","textPreview":"개별 이상신호를 종합해 조사 우선순위를 제공","textChars":24,"textLines":1,"bbox":[744,438,444,20]}
+{"kind":"shape","id":"sh/zat0bulc","slide":1,"bbox":[54,510,1172,112]}
+{"kind":"textbox","id":"sh/y9kz294r","slide":1,"text":"핵심 정의","textPreview":"핵심 정의","textChars":5,"textLines":1,"bbox":[78,529,110,22]}
+{"kind":"textbox","id":"sh/lcbid43i","slide":1,"text":"정답을 맞히는 분류 모델이 아니라, 사용자의 평소 행동에서 벗어난 정도를 계산하는 분석","textPreview":"정답을 맞히는 분류 모델이 아니라, 사용자의 평소 행동에서 벗어난 정도를 계산하는 분석","textChars":48,"textLines":1,"bbox":[78,558,1090,34]}
+{"kind":"textbox","id":"sh/0b2h4zmx","slide":1,"text":"실제 정보유출자를 확정하지 않으며, 외부 유출 위험이 높은 사용자를 우선 검토 대상으로 제시","textPreview":"실제 정보유출자를 확정하지 않으며, 외부 유출 위험이 높은 사용자를 우선 검토 대상으로 제시","textChars":51,"textLines":1,"bbox":[78,594,1090,22]}
+{"kind":"notes","id":"nt/z8muon","slide":1,"text":""}
+{"kind":"slide","id":"sl/kkkhme","slide":2,"title":"02. 분석 구조와 범위","textShapes":35}
+{"kind":"textbox","id":"sh/7qdcfqpw","slide":2,"text":"02. 분석 구조와 범위","textPreview":"02. 분석 구조와 범위","textChars":13,"textLines":1,"bbox":[54,26,260,24]}
+{"kind":"textbox","id":"sh/srmd8b6h","slide":2,"text":"SECURITY ANALYTICS","textPreview":"SECURITY ANALYTICS","textChars":18,"textLines":1,"bbox":[1000,27,220,20]}
+{"kind":"textbox","id":"sh/tsvuhg72","slide":2,"text":"기준선에서 위험순위와 산정 근거까지 연결","textPreview":"기준선에서 위험순위와 산정 근거까지 연결","textChars":22,"textLines":1,"bbox":[54,65,1120,50]}
+{"kind":"textbox","id":"sh/ut4valon","slide":2,"text":"공식 표현: 사용자 행동 기준선 기반 통계적 이상탐지 및 위험 스코어링","textPreview":"공식 표현: 사용자 행동 기준선 기반 통계적 이상탐지 및 위험 스코어링","textChars":39,"textLines":1,"bbox":[54,112,1120,28]}
+{"kind":"textbox","id":"sh/fuxcjqp8","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1190,682,30,18]}
+{"kind":"shape","id":"sh/gf6dcv6d","slide":2,"bbox":[54,172,153,94]}
+{"kind":"textbox","id":"sh/hgful07y","slide":2,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[68,182,30,18]}
+{"kind":"textbox","id":"sh/axkby1o3","slide":2,"text":"Security\nLog","textPreview":"Security | Log","textChars":12,"textLines":2,"bbox":[68,204,125,48]}
+{"kind":"shape","id":"sh/vytc76po","slide":2,"bbox":[207,217,14,3]}
+{"kind":"shape","id":"sh/ny9ozyd0","slide":2,"bbox":[221,172,153,94]}
+{"kind":"textbox","id":"sh/mx0n6dwf","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[235,182,30,18]}
+{"kind":"textbox","id":"sh/90r618v6","slide":2,"text":"Email\nFeature","textPreview":"Email | Feature","textChars":13,"textLines":2,"bbox":[235,204,125,48]}
+{"kind":"shape","id":"sh/ozi583ul","slide":2,"bbox":[374,217,14,3]}
+{"kind":"shape","id":"sh/zap4vydo","slide":2,"bbox":[388,172,153,94]}
+{"kind":"textbox","id":"sh/e9gn2tw3","slide":2,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[402,182,30,18]}
+{"kind":"textbox","id":"sh/1wr6x8vu","slide":2,"text":"User\nBaseline","textPreview":"User | Baseline","textChars":13,"textLines":2,"bbox":[402,204,125,48]}
+{"kind":"shape","id":"sh/0by543e9","slide":2,"bbox":[541,217,14,3]}
+{"kind":"shape","id":"sh/r6p4reds","slide":2,"bbox":[555,172,153,94]}
+{"kind":"textbox","id":"sh/q5gny9w7","slide":2,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[569,182,30,18]}
+{"kind":"textbox","id":"sh/u1wna9gz","slide":2,"text":"Anomaly\nScore","textPreview":"Anomaly | Score","textChars":13,"textLines":2,"bbox":[569,204,125,48]}
+{"kind":"shape","id":"sh/f25ojexk","slide":2,"bbox":[708,217,14,3]}
+{"kind":"shape","id":"sh/g3epcjy5","slide":2,"bbox":[722,172,153,94]}
+{"kind":"textbox","id":"sh/h4n6lofq","slide":2,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[736,182,30,18]}
+{"kind":"textbox","id":"sh/25g7etgb","slide":2,"text":"Weighted\nRisk Score","textPreview":"Weighted | Risk Score","textChars":19,"textLines":2,"bbox":[736,204,125,48]}
+{"kind":"shape","id":"sh/36po7yxw","slide":2,"bbox":[875,217,14,3]}
+{"kind":"shape","id":"sh/47ypg3y1","slide":2,"bbox":[889,172,153,94]}
+{"kind":"textbox","id":"sh/p8769ofm","slide":2,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[903,182,30,18]}
+{"kind":"textbox","id":"sh/q9g7itg7","slide":2,"text":"Risk User\nRanking","textPreview":"Risk User | Ranking","textChars":17,"textLines":2,"bbox":[903,204,125,48]}
+{"kind":"shape","id":"sh/rapobyxs","slide":2,"bbox":[1042,217,14,3]}
+{"kind":"shape","id":"sh/14bqhszu","slide":2,"bbox":[1056,172,153,94]}
+{"kind":"textbox","id":"sh/03i98ni9","slide":2,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1070,182,30,18]}
+{"kind":"textbox","id":"sh/z298f2h4","slide":2,"text":"산정 근거","textPreview":"산정 근거","textChars":5,"textLines":1,"bbox":[1070,204,125,48]}
+{"kind":"textbox","id":"sh/e10r6x0j","slide":2,"text":"분석 범위","textPreview":"분석 범위","textChars":5,"textLines":1,"bbox":[54,314,180,28]}
+{"kind":"shape","id":"sh/9sbalcz6","slide":2,"bbox":[54,352,558,244]}
+{"kind":"textbox","id":"sh/8r29c7il","slide":2,"text":"목표","textPreview":"목표","textChars":2,"textLines":1,"bbox":[78,374,80,22]}
+{"kind":"textbox","id":"sh/nqtsj2h0","slide":2,"text":"외부 전송 이상징후 탐지와\n위험 사용자 우선순위화","textPreview":"외부 전송 이상징후 탐지와 | 위험 사용자 우선순위화","textChars":27,"textLines":2,"bbox":[78,402,490,58]}
+{"kind":"shape","id":"sh/mpkrax0f","slide":2,"bbox":[78,480,510,1]}
+{"kind":"textbox","id":"sh/xwvapcz2","slide":2,"text":"제약","textPreview":"제약","textChars":2,"textLines":1,"bbox":[78,499,80,20]}
+{"kind":"textbox","id":"sh/wv29grih","slide":2,"text":"정답 라벨 없음 · activity 컬럼 없음","textPreview":"정답 라벨 없음 · activity 컬럼 없음","textChars":25,"textLines":1,"bbox":[78,526,490,24]}
+{"kind":"textbox","id":"sh/sr6t8b2p","slide":2,"text":"결과는 유출 확정이 아닌 조사 우선순위로 해석","textPreview":"결과는 유출 확정이 아닌 조사 우선순위로 해석","textChars":25,"textLines":1,"bbox":[78,556,490,20]}
+{"kind":"shape","id":"sh/tsfuhgja","slide":2,"bbox":[634,314,592,282]}
+{"kind":"textbox","id":"sh/6pob6lkz","slide":2,"text":"검증 원칙","textPreview":"검증 원칙","textChars":5,"textLines":1,"bbox":[660,338,150,26]}
+{"kind":"shape","id":"sh/7qxcfq14","slide":2,"bbox":[660,387,10,10]}
+{"kind":"textbox","id":"sh/kn6t4b2t","slide":2,"text":"정상","textPreview":"정상","textChars":2,"textLines":1,"bbox":[686,382,104,22]}
+{"kind":"textbox","id":"sh/5ofudgje","slide":2,"text":"기준선 범위의 낮은 점수","textPreview":"기준선 범위의 낮은 점수","textChars":13,"textLines":1,"bbox":[800,382,382,22]}
+{"kind":"shape","id":"sh/il4b21kn","slide":2,"bbox":[686,416,496,1]}
+{"kind":"shape","id":"sh/jmdcb618","slide":2,"bbox":[660,434,10,10]}
+{"kind":"textbox","id":"sh/4jqdgv2x","slide":2,"text":"단일 이상","textPreview":"단일 이상","textChars":5,"textLines":1,"bbox":[686,429,104,22]}
+{"kind":"textbox","id":"sh/pkzup0ji","slide":2,"text":"한 지표 편차에 따른 점수 상승","textPreview":"한 지표 편차에 따른 점수 상승","textChars":17,"textLines":1,"bbox":[800,429,382,22]}
+{"kind":"shape","id":"sh/zelwfulk","slide":2,"bbox":[686,463,496,1]}
+{"kind":"shape","id":"sh/edsf694f","slide":2,"bbox":[660,481,10,10]}
+{"kind":"textbox","id":"sh/1g3yh43q","slide":2,"text":"복합 이상","textPreview":"복합 이상","textChars":5,"textLines":1,"bbox":[686,476,104,22]}
+{"kind":"textbox","id":"sh/0fux8zm5","slide":2,"text":"여러 이상신호 결합 시 추가 상승","textPreview":"여러 이상신호 결합 시 추가 상승","textChars":18,"textLines":1,"bbox":[800,476,382,22]}
+{"kind":"shape","id":"sh/nilgjelw","slide":2,"bbox":[686,510,496,1]}
+{"kind":"shape","id":"sh/mhcfa94b","slide":2,"bbox":[660,528,10,10]}
+{"kind":"textbox","id":"sh/943ylo32","slide":2,"text":"반복 행동","textPreview":"반복 행동","textChars":5,"textLines":1,"bbox":[686,523,104,22]}
+{"kind":"textbox","id":"sh/ojuxcjmh","slide":2,"text":"반복·지속 시 위험도 누적","textPreview":"반복·지속 시 위험도 누적","textChars":14,"textLines":1,"bbox":[800,523,382,22]}
+{"kind":"shape","id":"sh/3mhw7alc","slide":2,"bbox":[634,620,592,38]}
+{"kind":"textbox","id":"sh/2l8fyp47","slide":2,"text":"정확도 대신 시나리오별 점수 방향성과 설명 가능성을 검증","textPreview":"정확도 대신 시나리오별 점수 방향성과 설명 가능성을 검증","textChars":31,"textLines":1,"bbox":[654,626,552,24]}
+{"kind":"notes","id":"nt/kkkhme","slide":2,"text":""}

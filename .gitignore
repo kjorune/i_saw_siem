@@ -1,0 +1,12 @@
+# Local source datasets and archives (too large for GitHub)
+/eda_security_data_clean_260915_01/
+/eda_security_data_clean_260915_01.zip
+
+# Generated previews and temporary work files
+/.codex-rendered/
+/tmp/
+**/__pycache__/
+*.py[cod]
+
+# Reinstallable dependencies
+**/node_modules/
