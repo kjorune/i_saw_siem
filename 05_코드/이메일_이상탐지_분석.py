@@ -11,7 +11,7 @@ from sklearn.preprocessing import RobustScaler
 ROOT = Path(r"C:\Users\ENCO\Documents\mission1\security_project")
 DATA = ROOT / "eda_security_data_clean_260915_01"
 LDAP = Path(r"C:\Users\ENCO\Downloads\data\LDAP")
-OUT = ROOT / "산출물" / "분석결과"
+OUT = ROOT / "06_산출물"
 OUT.mkdir(parents=True, exist_ok=True)
 
 

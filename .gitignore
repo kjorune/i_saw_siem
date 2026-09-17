@@ -1,6 +1,10 @@
 # Local source datasets and archives (too large for GitHub)
 /eda_security_data_clean_260915_01/
 /eda_security_data_clean_260915_01.zip
+/데이터/원본/*
+!/데이터/원본/README.md
+/07_데이터/원본/*
+!/07_데이터/원본/README.md
 
 # Generated previews and temporary work files
 /.codex-build/
